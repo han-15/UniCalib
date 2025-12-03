@@ -17,11 +17,10 @@ We model the calibration problem as **probabilistic flow estimation** in the uni
 ---
 
 ### 🌟 Key Highlights
-- **Targetless and data-driven** calibration without explicit calibration patterns.  
-- **Unified representation** bridging LiDAR and image domains through dense depth maps.  
-- **Probabilistic modeling** using Laplace distributions to capture flow uncertainty.  
-- **Perceptually weighted sparse flow (PWSF) loss** for stable and accurate optimization.
-
+- **Probabilistic depth flow** reframing 2D–3D correspondence for targetless calibration.  
+- **Unified depth representation** bridging LiDAR and camera via a shared encoder.  
+- **Reliability-aware modeling** with the novel **PWSF loss** for robust optimization.  
+- **Strong generalization** with accurate results across diverse datasets.  
 ---
 
 ### 🚧 Code Availability
