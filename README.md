@@ -4,7 +4,7 @@ Official repository for the paper:
 
 > **UniCalib: Targetless LiDAR–Camera Calibration via Probabilistic Flow on Unified Depth Representations**  
 > Shu Han, Xubo Zhu, Ji Wu, Ximeng Cai, Wen Yang, Huai Yu, and Gui-Song Xia  
-> Accepted to **WACV 2026**
+> **WACV 2026**
 
 [[Paper (arXiv)]](https://arxiv.org/abs/2504.01416) 
 
