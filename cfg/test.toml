@@ -1,0 +1,55 @@
+title = "Unicalib-Odo-Test"
+gpus = [0]
+mode = "test"
+
+[experiment]
+seed = 3407
+
+if_render=true  # set to true to visualize the results
+
+[dataset]
+name = "DatasetKITTIOdo"
+root_folder = 'Data/KITTI_odo/sequences'
+image='img'
+pcl_folder = 'velodyne'
+imgs_folder = 'img'
+depth_imgs_folder = 'img'
+test_sequence = '00'
+
+max_r = 5.0
+max_t = 0.1
+
+batch_size = 5
+num_workers = 10
+occlusion_threshold = 3
+occlusion_kernel = 5
+w_scale = 1
+h_scale = 1
+adjust_coordinate_order = [1,2,0]
+
+[trainer]
+max_epoch = 100
+grad_acc_steps = 1
+val_steps = 1
+
+[optimizer]
+type = "AdamW"
+lr = 1e-4
+weight_decay = 1e-5
+epsilon = 1e-8
+
+[scheduler]
+type = "OneCycleLR"
+
+[model]
+name = "RAFT"
+iters = 4
+dim = 128
+radius = 4
+block_dims = [64, 128, 256]
+initial_dim = 64
+num_blocks = 2
+use_var = true
+var_max = 10
+var_min = 0
+pretrain = "resnet34"

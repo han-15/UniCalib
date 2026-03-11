@@ -1,0 +1,14 @@
+easydict==1.13
+h5py==3.12.1
+loguru==0.7.3
+matplotlib==3.5.3
+numpy==2.4.3
+opencv_python==4.10.0.84
+pandas==3.0.1
+Pillow==12.1.1
+pykitti==0.3.1
+scipy==1.17.1
+torch==2.5.1+cu118
+torchvision==0.20.1+cu118
+tqdm==4.67.1
+wandb==0.25.1

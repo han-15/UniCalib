@@ -1,0 +1,80 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# Deep Learning specific
+model_weights/
+checkpoints/
+*.h5
+*.pth
+*.ckpt
+*.pb
+*.onnx
+data/
+dataset/
+raw_data/
+processed_data/
+results/
+wandb/
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+.project
+.classpath
+.settings/
+
+# System specific
+.DS_Store
+Thumbs.db
+*.log
+logs/
+.env
+.venv
+.coverage
+htmlcov/
+
+# Dependencies
+venv/
+ENV/
+node_modules/
+requirements.txt.lock
+poetry.lock
+
+# Notebooks
+.ipynb_checkpoints/
+*.ipynb
+
+# Temp files
+*.tmp
+tmp/
+temp/
+
+# !datasets/
+Data
+*.png
+**/result/
+
+*.zip
+*.pdf
+output/*
